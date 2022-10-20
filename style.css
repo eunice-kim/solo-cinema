@@ -11,13 +11,6 @@ html, body {
   visibility:visible !important;
 }
 
-#overlap-container {
-  width:100vw;
-  height:100vh;
-  position:absolute;
-  pointer-events:none;
-}
-
 #now-playing, #now-playing-two {
   transform:translateX(100%);
   top:27vh;
@@ -179,7 +172,6 @@ button:hover {
     background-position:center center;
     background-repeat:no-repeat;
     transition:all 0.5s ease;
-    position:absolute;
   }
 
   #color {
@@ -201,7 +193,6 @@ button:hover {
     -webkit-text-stroke: 0.5px #000000;
     z-index:1;
     padding:10px;
-    position:relative;
     margin-top:-50px;
     visibility:hidden;
   }
