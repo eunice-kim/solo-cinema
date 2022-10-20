@@ -162,7 +162,7 @@ var images = [];
 var srcs = [];
 
 for (var i = 1; i <= 210; i++) {
-    srcs.push("FILM/IMG_" + i.toString() + ".JPG");
+    srcs.push("FILM/IMG_" + i.toString() + ".jpg");
 }
 
 preload.apply(null, srcs);

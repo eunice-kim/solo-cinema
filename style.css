@@ -174,7 +174,7 @@ button:hover {
   #film-still {
     width:50vw;
     height:50vh;
-    background-image:url("FILM/IMG_1.JPG");
+    background-image:url("FILM/IMG_1.jpg");
     background-size:cover;
     background-position:center center;
     background-repeat:no-repeat;
