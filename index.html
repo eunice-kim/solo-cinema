@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Solo Cinema</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="overlap-container">
+      <div id="now-playing" class="title sans-serif slide-left">Now Playing: Conglomeration of Spectacles</div>
+      <div id="now-playing-two" class="title sans-serif slide-left slide-delay">Now Playing: Conglomeration of Spectacles</div>
+    </div>
+    <div class="container">
+      <div id="nav" class="supporting-text sans-serif">
+        <span class="nav-item" onclick="toHome()">SOLO CINEMA</span>
+        <span class="nav-item" onclick="goToMission()">MISSION</span>
+        <span class="nav-item" onclick="goToScreening()">SCREENING ROOM</span>
+      </div>
+      <div id="box">
+        <div id="slides">
+          <div class="slide" id="slide-one">
+            <span class="supporting-text sans-serif blink">Welcome To</span>
+            <span class="title serif">Solo Cinema</span>
+          </div>
+          <div class="slide" id="slide-two">
+            <span id="mission" class="title serif">Our Mission</span>
+            <span id="description"><span class="emphasize">Solo Cinema</span> is the ultimate cinematic experience for the modern consumer who seeks film that is catered to them (or at least possesses the appearance of catering to them). No need to bring your soul, just at least one working eye and one working limb to help you control the settings as you engage with today's pinnacle of filmic entertainment.</span>
+          </div>
+          <div class="slide" id="slide-three">
+            <a href="screening-room.html"><button type="button">ENTER THE SCREENING ROOM</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="code.js"></script>
+  </body>
+</html>

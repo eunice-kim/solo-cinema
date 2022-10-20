@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Screening Room</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <video id="video" width="320" height="240" autoplay></video>
+    <audio loop id="audio-one"><source src="AUDIO/1.mp3" type="audio/mpeg"></audio>
+    <audio loop id="audio-two"><source src="AUDIO/2.mp3" type="audio/mpeg"></audio>
+    <audio loop id="audio-three"><source src="AUDIO/3.mp3" type="audio/mpeg"></audio>
+    <audio loop id="audio-four"><source src="AUDIO/4.mp3" type="audio/mpeg"></audio>
+    <audio loop id="audio-five"><source src="AUDIO/5.mp3" type="audio/mpeg"></audio>
+    <div id="container-page">
+      <div id="container-film">
+        <div id="film-still">
+          <div id="intro">
+            <div class="intro-text supporting-text sans-serif">
+              Not only is <span class="emphasize serif enlarge">Solo Cinema</span> a revolution in film, it is also entirely free of charge. All you need to give us in exchange for this experience is access to your camera so we may observe your reactions. This information will not be shared; it is for internal use so we can improve your happiness in the future.
+            </div>
+            <button id="access-camera">ENABLE ACCESS</button>
+            <button id="click-photo" onclick="beginFilm()">CONTINUE</button>
+            <div id="enjoy" class="intro-text supporting-text sans-serif">Please enjoy this screening of <span class="emphasize"> Conglomeration of Spectacles</span>.</div>
+          </div>
+          <div id="color"></div>
+          <canvas id="canvas"></canvas>
+          <div id="subtitles" class="sans-serif"></div>
+          <video id="jemcohen-film"><source src="jemcohen.mp4"></source></video>
+        </div>
+      </div>
+      <div id="controls">
+        <span id="audio-button" onclick="playAudio()">♪</span>
+        <span id="prev-button" onclick="prev()">◀</span>
+        <span id="next-button" onclick="next()">▶</span>
+        <input class="slider" id="width-slider" type="range" min="0" max="100" value="" onchange="updateWidth()">
+        <input class="slider" id="height-slider" type="range" min="0" max="95" value="" onchange="updateHeight()">
+        <input class="slider" id="hue-slider" type="range" min="0" max="360" value="0" onchange="updateHue()">
+        <span id="text-button" onclick="showText()">T</span>
+    </div>
+    <script src="code.js"></script>
+  </body>
+</html>
