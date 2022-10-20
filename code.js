@@ -31,7 +31,6 @@ var titles = [" ", "Given the existence as uttered forth", "in the public works 
 // scrolling feature on homepage
 var wait = false;
 if (window.location.href.indexOf("index") > -1) {
-  console.log("work!");
   slides.addEventListener('wheel', function(event) {
     clearTimeout();
     if (!wait) {
