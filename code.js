@@ -174,7 +174,7 @@ function preload() {
     }
 }
 
-// This section of code was adapted from Useful Angle:
+// This section of code was adapted from Useful Angle.
 // https://usefulangle.com/post/352/javascript-capture-image-from-camera
 // Take picture via webcam and display on canvas.
 let camera_button = document.querySelector("#access-camera");
