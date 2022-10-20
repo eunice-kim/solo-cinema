@@ -22,6 +22,7 @@ var audioFour = document.getElementById("audio-four");
 var audioFive = document.getElementById("audio-five");
 var subtitles = document.getElementById("subtitles");
 var endingFilm = document.getElementById("jemcohen-film");
+var pageContainer = document.getElementById("container-page");
 
 var no = 0;
 
@@ -107,6 +108,7 @@ function next() {
     audioFive.pause();
     nextButton.style.display="none";
     endingFilm.style.display="block";
+    pageContainer.style.backgroundColor="#000000";
     controls.style.backgroundColor="#000000";
     endingFilm.play();
   }
