@@ -34,6 +34,7 @@ html, body {
   display:flex;
   background-color:#000000;
   color:#FFFFFF;
+  overflow:hidden;
 }
 
 #nav {
@@ -153,6 +154,7 @@ button:hover {
 #overlap-container {
   width:100vw;
   height:100vh;
+  overflow:hidden;
   position:absolute;
   pointer-events:none;
 }
@@ -168,7 +170,6 @@ button:hover {
   display:flex;
   justify-content:center;
   align-items:center;
-  overflow:hidden;
 }
 
   #film-still {
