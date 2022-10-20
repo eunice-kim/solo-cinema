@@ -150,6 +150,13 @@ button:hover {
   cursor:pointer;
 }
 
+#overlap-container {
+  width:100vw;
+  height:100vh;
+  position:absolute;
+  pointer-events:none;
+}
+
 #container-page {
   height:100vh;
   display:flex;
